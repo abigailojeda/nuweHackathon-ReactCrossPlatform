@@ -5,6 +5,8 @@ nuwe-neobanks:
 This is my contribution to the CaixaBank Tech Hackathlon
 A small financial application made with React 
 
+[FigmaDesign](https://www.figma.com/file/SxdHiAzQFC7oyBO0FeQGhh?node-id=502:2097)
+
 
 ## Background 
 

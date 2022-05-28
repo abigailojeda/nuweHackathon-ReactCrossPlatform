@@ -1,0 +1,93 @@
+@import 'settings.scss';
+
+.home-text-cont{
+    margin: 12em auto 0 auto;
+    text-align: center;
+    h3{
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    h3:nth-child(4){
+        color: $pale-gray;
+        margin-top: -0.3em;
+        font-size: 25px;
+        width: 200px;
+        margin: auto;
+    }
+    h1{
+        font-size: 75px;
+        font-weight: 300;
+    }
+
+    img{
+        width: 500px;
+        margin-top: -200px;
+        position: relative;
+        z-index: -1;
+    }
+}
+.home-cont{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    .home-link-cont{
+        text-decoration: none;
+        background-color: $blue-vibrant;
+        display: flex;
+        border-radius: 30px;
+        width: 250px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 3em;
+    
+        h1{
+            text-align: center;
+            width: 100%;
+            color: #fff;
+            font-size: 25px;
+        }
+    
+        &:hover{
+            background-color: lighten($blue-vibrant, 10%)
+        }
+    }
+}
+
+
+
+
+/*****************************************RESPONSIVE*********************/
+
+@media screen and (max-width:500px){
+
+    .home-text-cont{
+    
+        h3{
+            font-size: 20px;
+        }
+    
+        h1{
+            font-size: 50px;
+        }
+
+        img{
+            width: 300px;
+            margin-top: -125px;
+        }
+    }
+    .home-cont{
+    
+        .home-link-cont{
+            width: 180px;
+            height: 50px;
+            line-height: 50px;
+        
+            h1{
+                font-size: 20px;
+            }
+        
+           
+        }
+    }
+}
